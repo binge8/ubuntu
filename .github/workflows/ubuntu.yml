@@ -3,7 +3,7 @@ on:
   repository_dispatch:
     types: ubuntu
   workflow_dispatch:
-  schedule:
+  #schedule:
     #- cron: 0 0 * * 1
 jobs:
   build:
