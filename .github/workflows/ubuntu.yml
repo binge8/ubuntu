@@ -4,7 +4,7 @@ on:
     types: ubuntu
   workflow_dispatch:
   schedule:
-    - cron: 28 17 * * 5
+    - cron: 28 9 * * 5
 jobs:
   build:
     runs-on: ubuntu-20.04
